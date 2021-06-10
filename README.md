@@ -14,3 +14,6 @@ for that frame is the value of the next two balls rolled.
 In the tenth frame a player who rolls a spare or strike is allowed to roll the extra
 balls to complete the frame. However, no more than three balls can be rolled in
 tenth frame.
+
+
+<img src="https://github.com/MrVipinVijayan/BowlingApp/blob/master/images/Screenshot_1621830366.png?raw=true" width="420" height="800" />
