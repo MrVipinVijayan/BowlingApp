@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bowling Game</string>
+    <string name="hit_hint">Enter hit separated by comma. eg: 1,1,1,1,10,1,3</string>
+    <string name="in_progress_message">Please wait...</string>
+    <string name="enter_hits">Enter Hits</string>
+    <string name="get_score_btn_text">GET SCORE</string>
+    <string name="perfect_game_message">PERFECT GAME, EXCELLENT!!!</string>
+    <string name="invalid_input">Invalid Input</string>
+</resources>

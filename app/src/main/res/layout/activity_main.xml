@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view_screens.GameHomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/strike" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.coderzheaven.bowlingapp.view_components.FrameView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+            <com.coderzheaven.bowlingapp.view_components.FrameView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+            <com.coderzheaven.bowlingapp.view_components.FrameView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+            <com.coderzheaven.bowlingapp.view_components.FrameView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+            <com.coderzheaven.bowlingapp.view_components.FrameView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+            <com.coderzheaven.bowlingapp.view_components.FrameView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+            <com.coderzheaven.bowlingapp.view_components.FrameView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+            <com.coderzheaven.bowlingapp.view_components.FrameView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+            <com.coderzheaven.bowlingapp.view_components.FrameView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+            <com.coderzheaven.bowlingapp.view_components.FrameView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="@string/enter_hits"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtScores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_tf"
+                android:hint="@string/hit_hint" />
+
+            <Button
+                android:id="@+id/btnScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                android:text="@string/get_score_btn_text" />
+
+            <TextView
+                android:id="@+id/tvFinalScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvProgress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="@string/in_progress_message"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvStatusMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="@string/perfect_game_message"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
