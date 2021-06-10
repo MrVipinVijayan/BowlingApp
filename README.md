@@ -17,3 +17,5 @@ tenth frame.
 
 
 <img src="https://github.com/MrVipinVijayan/BowlingApp/blob/master/images/Screenshot_1621830366.png?raw=true" width="420" height="800" />
+
+<img src="https://github.com/MrVipinVijayan/BowlingApp/blob/master/images/Screenshot_1621873857.png?raw=true" width="420" height="800" />
